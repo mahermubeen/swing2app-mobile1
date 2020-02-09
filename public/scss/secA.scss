@@ -1,0 +1,90 @@
+.sacA-wrapper {
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .A-left-wrapper {
+        border-right: 1px solid rgb(232, 232, 232);
+        padding: 0 24px;
+        display: grid;
+        grid-template-rows: repeat(3, max-content);
+        grid-gap: 24px;
+        p {
+            font-size: 16px;
+            color: white;
+        }
+        .left-div1,
+        .left-div2,
+        .left-div3 {
+            border-width: 1px;
+            border-color: rgb(232, 232, 232);
+            border-style: solid;
+            border-radius: 10px;
+            background-color: rgb(187, 223, 252);
+            width: 334px;
+            height: 188px;
+            padding: 17px;
+            display: grid;
+            align-items: end;
+            box-shadow: inset 0px -109px 119px -49px rgba(0, 0, 0, 0.54);
+        }
+        .left-div1 {
+            background: url('../images/left-div1.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .left-div2 {
+            background: url('../images/left-div2.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .left-div3 {
+            background: url('../images/left-div3.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .A-right-wrapper {
+        padding: 0 24px;
+        display: grid;
+        grid-template-rows: repeat(3, max-content);
+        grid-gap: 24px;
+        p {
+            font-size: 16px;
+            color: white;
+        }
+        .right-div1,
+        .right-div2,
+        .right-div3 {
+            border-width: 1px;
+            border-color: rgb(232, 232, 232);
+            border-style: solid;
+            border-radius: 10px;
+            background-color: rgb(187, 223, 252);
+            width: 334px;
+            height: 188px;
+            padding: 17px;
+            display: grid;
+            align-items: end;
+            box-shadow: inset 0px -109px 119px -49px rgba(0, 0, 0, 0.54);
+        }
+        .right-div1 {
+            background: url('../images/right-div1.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .right-div2 {
+            background: url('../images/right-div2.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .right-div3 {
+            background: url('../images/right-div3.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

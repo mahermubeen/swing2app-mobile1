@@ -1,0 +1,17 @@
+.sec1 {
+    background: url(../images/below-nav.png) no-repeat;
+    padding: 75px;
+    background-size: cover;
+    display: grid;
+    justify-content: left;
+    justify-items: center;
+    color: white;
+    p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    span {
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
